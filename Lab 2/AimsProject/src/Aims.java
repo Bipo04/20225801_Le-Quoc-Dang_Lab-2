@@ -15,12 +15,6 @@ public class Aims {
 		System.out.println(anOrder.TotalCost());
 
 		System.out.println("==========================================================");
-		System.out.println("Test chức năng giỏ hàng đầy");
-		for (int i = 0; i < 18; i++) {
-			anOrder.addDigitalVideoDisc(dvd_1);
-		}
-
-		System.out.println("==========================================================");
 		System.out.println("Test chức năng loại bỏ đĩa khỏi giỏ");
 		anOrder.RemoveDigitalVideoDisc(dvd_1);
 		anOrder.RemoveDigitalVideoDisc(dvd_2);
